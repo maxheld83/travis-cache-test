@@ -14,7 +14,7 @@ cache:
     - $TRAVIS_BUILD_DIR/packrat/lib
 
 script:
-  - Rscript script.R
+  - Rscript test-script.R
 
 notifications:
   email: false
