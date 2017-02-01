@@ -3,6 +3,11 @@ PackratVersion: 0.4.8.1
 RVersion: 3.3.2
 Repos: CRAN=https://cran.rstudio.com/
 
+Package: babynames
+Source: CRAN
+Version: 0.2.1
+Hash: bbb251e6af19bbfeb6bb7b648f15cee2
+
 Package: packrat
 Source: CRAN
 Version: 0.4.8-1
