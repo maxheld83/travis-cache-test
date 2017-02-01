@@ -1,0 +1,12 @@
+Package: travis-cache-test
+Title: placeholder
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Maximilian", "Held", email = "info@maxheld.de", role = "cre")
+Depends:
+    R (>= 3.2.3)
+License: None
+Encoding: UTF-8
+LazyData: true
+Imports:
+    packrat
