@@ -11,3 +11,6 @@ babynames::babynames$name[1:3]
 
 # install.packages("nycflights13")
 nycflights13::airlines
+
+# install.packages("ggplot2")
+ggplot2::mpg$manufacturer[1:3]
