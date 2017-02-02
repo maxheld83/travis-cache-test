@@ -3,12 +3,39 @@ PackratVersion: 0.4.8.1
 RVersion: 3.3.2
 Repos: CRAN=https://cran.rstudio.com/
 
+Package: Rcpp
+Source: CRAN
+Version: 0.12.9
+Hash: 7ab41cbe74918de8de87e435ef17e92d
+
+Package: assertthat
+Source: CRAN
+Version: 0.1
+Hash: 0afb92b59b02593c70ff8046700ba9d3
+
 Package: babynames
 Source: CRAN
 Version: 0.2.1
 Hash: bbb251e6af19bbfeb6bb7b648f15cee2
 
+Package: lazyeval
+Source: CRAN
+Version: 0.2.0
+Hash: 3d6e7608e65bbf5cb170dab1e3c9ed8b
+
+Package: nycflights13
+Source: CRAN
+Version: 0.2.2
+Hash: dc3dbaaf3493c7ea43ff8a1523046c80
+Requires: tibble
+
 Package: packrat
 Source: CRAN
 Version: 0.4.8-1
 Hash: 6ad605ba7b4b476d84be6632393f5765
+
+Package: tibble
+Source: CRAN
+Version: 1.2
+Hash: 3857905737a164648031462bed6aa2ef
+Requires: Rcpp, assertthat, lazyeval
