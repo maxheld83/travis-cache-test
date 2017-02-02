@@ -3,6 +3,7 @@ language: r
 sudo: false
 
 install:
+  - R -e "0" --args --bootstrap-packrat
   - R -e "packrat::restore(restart = FALSE)"
 
 warnings_are_errors: false

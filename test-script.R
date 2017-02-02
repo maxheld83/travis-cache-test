@@ -6,4 +6,8 @@
 # install.packages("babynames")
 library(babynames)
 babynames::babynames$name[1:3]
-packrat::status()
+# packrat::status()
+# packrat::snapshot()
+
+# install.packages("nycflights13")
+nycflights13::airlines
