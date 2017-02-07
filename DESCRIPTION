@@ -8,5 +8,5 @@ Depends:
 License: None
 Encoding: UTF-8
 LazyData: true
-Imports:
-    packrat
+Imports: ggplot2
+Remotes: github::maxheld83/qmethod
