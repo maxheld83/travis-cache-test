@@ -8,5 +8,7 @@ Depends:
 License: None
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2
+Imports: 
+  ggplot2,
+  devtools
 Remotes: github::maxheld83/qmethod
