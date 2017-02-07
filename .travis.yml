@@ -2,6 +2,9 @@ language: r
 
 sudo: false
 
+r_github_packages:
+  - maxheld83/qmethod
+
 warnings_are_errors: false
 
 cache:

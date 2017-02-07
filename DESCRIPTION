@@ -11,4 +11,3 @@ LazyData: true
 Imports: 
   ggplot2,
   devtools
-Remotes: github::maxheld83/qmethod
